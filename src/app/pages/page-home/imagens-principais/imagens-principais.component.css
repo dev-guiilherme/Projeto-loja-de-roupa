@@ -1,12 +1,15 @@
 
 .container-banner{
+    display: flex;
+    justify-content: center;
+    text-align: center;
     max-height: max-content;
     background-color: rgb(255, 255, 255);
 }
 
 .container-banner img{
     padding: 10px;
-    height: 500px;
+    height: max-content;
 }
 
 .titulo1{
@@ -29,12 +32,9 @@
 .container{
     display: flex;
     justify-content: center;
-    width: max-content;
-    height: max-content;
+    text-align: center;
     background-color: rgb(255, 255, 255);
     margin-top: 20px;
-    position: absolute;
-    left: 5%;
 }
 
 .imagens{
