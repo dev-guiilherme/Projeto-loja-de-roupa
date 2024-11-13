@@ -1,0 +1,67 @@
+
+.container-banner{
+    max-height: max-content;
+    background-color: rgb(255, 255, 255);
+}
+
+.container-banner img{
+    padding: 10px;
+    height: 500px;
+}
+
+.titulo1{
+    background-color: rgb(36, 36, 36);
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.temas{
+    display: flex;
+    gap: 200px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: max-content;
+    height: max-content;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    position: absolute;
+    left: 5%;
+}
+
+.imagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.imagens img{
+    width: 400px;
+    height: 400px;
+}
+
+.imagens button{
+    cursor: pointer;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.imagem1-2{
+    display: flex;
+    gap: 20px;
+}
+.imagem3-4{
+    display: flex;
+    gap: 20px;
+}
+
