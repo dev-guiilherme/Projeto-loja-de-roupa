@@ -6,12 +6,26 @@
 
 .container{
     background-color: black;
-    padding: 20px;
+    padding: 25px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    
 }
 
 .nome-logo{
     color: white;
     font-size: 20px;
+}
+
+.menu-img{
+    display: flex;
+    height: 30px;
+    width: 30px;
+}
+
+.logo{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
 }
